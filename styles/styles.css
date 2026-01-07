@@ -3,6 +3,10 @@
   padding:0px;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior:smooth;
+}
+
 .nav{
   display:flex;
 
@@ -97,7 +101,7 @@
   width: 400px;
   border: 2px solid rgb(49, 137, 161);
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(68, 121, 154, 0.3);
+  box-shadow: 0 0 20px rgba(231, 233, 234, 0.3);
 
 }
 
@@ -160,3 +164,111 @@
 .fa-linkedin {
   color: #0A66C2;
 }
+
+.s{
+  color:#087d33
+}
+.nickname{
+  color:#0ab5be
+}
+
+.link-container a{
+  text-decoration: none;
+}
+#abtbtn:active{
+  transition: all 0.3s ease;
+}
+
+/* about */
+
+/* About Section */
+#about {
+  background-color: rgb(4, 4, 77);
+  color: aliceblue;
+  padding: 60px 100px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #4da6ff;
+}
+
+.about-main-container {
+  display: flex;
+  gap: 60px;
+}
+
+/* Skills */
+.skills h3,
+.academics h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #56a8fa;
+}
+
+.about-text {
+  margin-bottom: 25px;
+  font-weight: 540;
+  line-height: 1.6;
+}
+
+.skill-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+}
+
+.skill-card {
+  border:1px solid #4da6ff;
+  
+  height: 110px;
+  background: rgb(7, 7, 112);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+   box-shadow: 0px 0px 10px #4da6ff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card i {
+  font-size: 32px;
+  margin-bottom: 8px;
+  color: #0ab5be;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.6);
+}
+
+/* Academics */
+.academics {
+  width: 40%;
+}
+
+.academic-card {
+  border:1px solid #4da6ff;
+  background: rgb(7, 7, 112);
+  padding: 20px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+  box-shadow: 0px 0px 10px #4da6ff;
+}
+
+.academic-card h4 {
+  color: #4da6ff;
+  margin-bottom: 8px;
+}
+
+.academic-card:hover {
+  transform: translateY(-6px);
+}
+
