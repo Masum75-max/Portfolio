@@ -1,0 +1,162 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.nav{
+  display:flex;
+
+  align-items: center;
+  height:15vh;
+  background-color: rgb(3, 3, 78);
+  border-bottom:0.5px solid black;
+}
+.nav div{
+  color:white;
+  width:40vw;
+  margin-left:90px;
+
+}
+.link-container{
+  width:60vw;
+  list-style: none;
+  display: flex; 
+  gap:30px;
+  justify-content: center;
+  
+
+}
+
+.btn{
+
+  height:35px;
+  width: 90px;
+  background:transparent;
+  border:none;
+  border-radius: 30px;
+  color:aliceblue;
+  font-weight: 700;
+  transition: transform 0.4s ease;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  color: rgb(7, 113, 113);
+}
+
+.banner{
+  display: flex;
+  height:510px;
+  background-color: rgb(4, 4, 77);
+  align-items: center;
+}
+
+.banner .banner-content{
+  margin-left: 150px;
+}
+
+.banner .banner-content h2{
+  color:aliceblue;
+  font-size: 30px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.banner .banner-content h1{
+
+  color:aliceblue;
+  font-size: 50px;
+  margin-bottom: 10px;  
+  font-weight: 600;
+
+}
+.banner .banner-content p{
+
+  color:aliceblue;
+  font-size: 20px;
+   font-weight: 600; 
+
+}
+.banner .banner-content div{
+
+  color:aliceblue;
+  font-size: 18px;
+   font-weight: 400; 
+   
+}
+.banner .banner-content ul{
+  display:flex;
+  justify-content: row;
+  gap:30px;
+  list-style: none;
+  margin:20px;
+}
+
+.masum {
+  height: 400px;
+  width: 400px;
+  border: 2px solid rgb(49, 137, 161);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(68, 121, 154, 0.3);
+
+}
+
+.typing {
+  display: inline-block;
+  color: rgb(20, 141, 189);
+  vertical-align: bottom;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid skyblue; 
+  width: 0;
+  animation: typing 2s steps(40, end) infinite alternate, blink 0.75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 50%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+ 
+.logo-container {
+      height: 0px;;
+      align-items:center ;
+     
+}
+
+
+.banner .banner-content button{
+  height: 40px;
+  width:120px;
+  margin-top: 20px;
+  background-color: rgb(7, 178, 240);
+  border:none;
+  border-radius:50px;
+  color:white;
+  font-size:14px;
+  font-weight: 600;
+  transition:transform 0.5s ease;
+}
+
+.banner .banner-content button:hover{
+  transform: scale(1.1);
+  background-color: rgb(15, 149, 167);
+  box-shadow: 0 0 10px rgb(157, 219, 227);
+}
+.fa-square-facebook {
+  color: #1877F2;
+}
+
+.fa-square-instagram {
+  color: #a50926;
+}
+
+.fa-whatsapp {
+  color: #25D366;
+}
+
+.fa-linkedin {
+  color: #0A66C2;
+}
